@@ -1,0 +1,14 @@
+digraph arbol { 
+ size="7,7";  
+ node [color=lightblue2, style=filled]; 
+"luigi" -> "hammer"; 
+"hammer" -> "fermin"; 
+"fermin" -> "edd"; 
+"edd" -> "boo"; 
+"hammer" -> "kamer"; 
+"luigi" -> "mario"; 
+"mario" -> "shy_guy"; 
+"shy_guy" -> "star"; 
+"star" -> "whomp"; 
+
+ }
